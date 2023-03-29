@@ -20,10 +20,6 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -53,16 +49,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
@@ -109,6 +95,8 @@ p {
 
 .article img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
 .article h2 {
@@ -123,6 +111,15 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+#seo {
+    color: #d9dcd6;
+}
+
+#float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+#footer-h2 {
     font-size: 20px;
 }
