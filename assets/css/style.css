@@ -1,13 +1,16 @@
+/* the asterisk denotes formatting for the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* adds color to the background */
 body {
     background-color: #d9dcd6;
 }
 
+/* formatting and color for the header element */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/* stacks h1 inline and specifies font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* moves listed items to the right side of the screen and formats them */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,20 +33,25 @@ body {
     font-size: 20px;
 }
 
+/* stacks listed items inline */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* specifies font color for anchor elements and 
+eliminates the underline on url links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* specifies different font size for paragraph elements text*/
 p {
     font-size: 16px;
 }
 
+/* formatting for the large central marketing image */
 .hero {
     height: 800px;
     width: 100%;
@@ -51,12 +61,15 @@ p {
     background-position: center;
 }
 
+/* general formatting for content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* general formatting for the aside element
+that specifies spacing, size, font, colors */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -68,22 +81,27 @@ p {
     background-color: #2589bd;
 }
 
+/* specifies spacing for the section to look centered 
+inside the aside element */
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* aligns text to the center and formats it in the space */
 .benefit-sub h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* moves image below the h3 element, and formats it */
 .benefit-sub img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* general formatting and color for the article element */
 .article {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,20 +111,26 @@ p {
     color: #ffffff;
 }
 
+/* specifies height of the image within the article element*/
 .article img {
     max-height: 200px;
 }
 
+/* formats font and spacing of text within the h2 headings 
+of the article element */
 .article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* moves image to the left, relative to the text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* formats appropriate spacing for footer, specifies font
+and aligns text center */
 .footer {
     padding: 30px;
     clear: both;
@@ -114,14 +138,18 @@ p {
     text-align: center;
 }
 
+/* specifies font size of h2 headings withing the footer element */
 .footer h2 {
     font-size: 20px;
 }
 
+/* use this to change color of only "seo" in the h1 heading
+located in the header element */
 #seo {
     color: #d9dcd6;
 }
 
+/* moves image to the right, relative to the text */
 #float-right {
     float: right;
     margin-left: 25px;
